@@ -21,6 +21,30 @@ const TechStack: React.FC = () => {
       icon: '🌐'
     },
     { 
+      name: 'xUnit', 
+      category: 'Backend', 
+      color: 'from-green-500 to-green-600',
+      icon: '🧪'
+    },
+    { 
+      name: 'ILogger', 
+      category: 'Backend', 
+      color: 'from-blue-600 to-indigo-600',
+      icon: '📝'
+    },
+    { 
+      name: 'Serilog', 
+      category: 'Backend', 
+      color: 'from-indigo-600 to-purple-600',
+      icon: '📋'
+    },
+    { 
+      name: 'PHP', 
+      category: 'Backend', 
+      color: 'from-purple-600 to-indigo-600',
+      icon: '🐘'
+    },
+    { 
       name: 'JavaScript', 
       category: 'Frontend', 
       color: 'from-yellow-500 to-yellow-600',
@@ -45,22 +69,52 @@ const TechStack: React.FC = () => {
       icon: '⚛️'
     },
     { 
-      name: 'PHP', 
-      category: 'Backend', 
-      color: 'from-purple-600 to-indigo-600',
-      icon: '🐘'
-    },
-    { 
       name: 'Docker', 
       category: 'DevOps', 
       color: 'from-cyan-500 to-cyan-600',
       icon: '🐳'
     },
     { 
+      name: 'Kubernetes', 
+      category: 'DevOps', 
+      color: 'from-blue-500 to-blue-600',
+      icon: '☸️'
+    },
+    { 
+      name: 'Azure', 
+      category: 'DevOps', 
+      color: 'from-blue-600 to-cyan-500',
+      icon: '☁️'
+    },
+    { 
+      name: 'Azure DevOps', 
+      category: 'DevOps', 
+      color: 'from-blue-500 to-indigo-500',
+      icon: '🔧'
+    },
+    { 
+      name: 'CI/CD Pipelines', 
+      category: 'DevOps', 
+      color: 'from-indigo-500 to-purple-500',
+      icon: '🚀'
+    },
+    { 
+      name: 'Git', 
+      category: 'DevOps', 
+      color: 'from-orange-500 to-red-500',
+      icon: '🔀'
+    },
+    { 
       name: 'MongoDB', 
       category: 'Database', 
       color: 'from-green-600 to-green-700',
       icon: '🍃'
+    },
+    { 
+      name: 'PostgreSQL', 
+      category: 'Database', 
+      color: 'from-blue-600 to-blue-700',
+      icon: '🐘'
     },
     { 
       name: 'Elasticsearch', 
@@ -75,6 +129,18 @@ const TechStack: React.FC = () => {
       icon: '🗄️'
     },
     { 
+      name: 'Redis', 
+      category: 'Database', 
+      color: 'from-red-600 to-red-700',
+      icon: '⚡'
+    },
+    { 
+      name: 'RabbitMQ', 
+      category: 'Database', 
+      color: 'from-orange-500 to-orange-600',
+      icon: '🐰'
+    },
+    { 
       name: 'Power BI', 
       category: 'Analytics', 
       color: 'from-yellow-600 to-orange-500',
@@ -85,18 +151,6 @@ const TechStack: React.FC = () => {
       category: 'Analytics', 
       color: 'from-green-500 to-green-600',
       icon: '📈'
-    },
-    { 
-      name: 'Git', 
-      category: 'DevOps', 
-      color: 'from-orange-500 to-red-500',
-      icon: '🔀'
-    },
-    { 
-      name: 'Node.js', 
-      category: 'Backend', 
-      color: 'from-green-600 to-green-700',
-      icon: '🟢'
     }
   ];
 
