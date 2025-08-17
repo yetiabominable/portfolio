@@ -43,7 +43,7 @@ const TechStack: React.FC = () => {
       name: 'PHP', 
       category: 'Backend', 
       color: 'from-purple-600 to-indigo-600',
-      icon: Database
+      icon: Rabbit
     },
     { 
       name: 'JavaScript', 
