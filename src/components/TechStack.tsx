@@ -1,30 +1,5 @@
 import React from 'react';
-import { 
-  Code2, 
-  Zap, 
-  Globe, 
-  TestTube, 
-  FileText, 
-  ClipboardList, 
-  Database, 
-  FileCode, 
-  Layers, 
-  Palette, 
-  Atom, 
-  Container, 
-  Kubernetes, 
-  Cloud, 
-  Settings, 
-  Rocket, 
-  GitBranch, 
-  Leaf, 
-  Search, 
-  Server, 
-  Activity, 
-  Rabbit, 
-  BarChart3, 
-  FileSpreadsheet 
-} from 'lucide-react';
+import { Code2, Zap, Globe, TestTube, FileText, ClipboardList, Database, FileCode, Layers, Palette, Atom, Container, Diameter as Kubernetes, Cloud, Settings, Rocket, GitBranch, Leaf, Search, Server, Activity, Rabbit, BarChart3, FileSpreadsheet } from 'lucide-react';
 
 const TechStack: React.FC = () => {
   const technologies = [
